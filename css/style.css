@@ -39,7 +39,7 @@ a {
   content: "";
 }
 
-.up{
+.container{
   margin: auto;
   width: 80%;
 }
@@ -77,6 +77,36 @@ h1{
 }
 
 p{
-  font-size: 1,2rem;
+  font-size: 1.2rem;
   margin: 20px 0;
+}
+
+/* main */
+.text-h2{
+  text-align: center;
+  font-size: 2rem;
+  padding: 40px 0;
+}
+
+.green{
+  background-color: green;
+  border-radius: 5px;
+  width: 33%;
+  float: left;
+}
+
+.yellow{
+  background-color: yellow;
+  border-radius: 5px;
+  width: 33%;
+  float: left;
+
+}
+
+.purple{
+  background-color: purple;
+  border-radius: 5px;
+  width: 33%;
+  float: left;
+
 }
