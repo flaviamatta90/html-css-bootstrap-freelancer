@@ -56,11 +56,11 @@ a {
   padding: 30px 0;
 }
 
-.hero{
+.tiffany{
   position: relative;
   width: 100%;
   background-color: #1abc9c;
-  height: 300px;
+  height: 350px;
 }
 
 .img-center{
@@ -82,9 +82,9 @@ p{
 }
 
 /* main */
-.text-h2{
+h2{
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.3rem;
   padding: 40px 0;
 }
 
@@ -100,7 +100,6 @@ p{
   border-radius: 5px;
   width: 33%;
   float: left;
-
 }
 
 .purple{
@@ -108,5 +107,29 @@ p{
   border-radius: 5px;
   width: 33%;
   float: left;
+}
 
+.lightgreen{
+  width: 60%;
+}
+
+.about{
+  float: left;
+  width: 100%;
+}
+
+.about h2{
+  color: #fff;
+}
+
+.sx, .dx{
+  width: 50%;
+  float: left;
+  color: #fff;
+}
+
+.but{
+  float: left;
+  width: 100%;
+  text-align: center;
 }
