@@ -3,3 +3,52 @@
     margin: 0px;
     padding: 0px;
 }
+
+a {
+  text-decoration: none;
+}
+
+.list-inline {
+  list-style: none;
+}
+
+.list-inline  li {
+  display: inline-block;
+}
+
+.main-menu {
+  text-align: right;
+}
+
+.main-menu li {
+  padding-right: 30px;
+}
+
+.main-menu li a {
+  color: #000;
+}
+
+.container::after{
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.container{
+  margin: auto;
+  width: 80%;
+}
+
+.red{
+  float: left;
+  width: 50%;
+  height: 60px;
+  background-color: red;
+}
+
+.blue{
+  float: left;
+  width: 50%;
+  height: 60px;
+  background-color: blue;
+}
