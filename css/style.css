@@ -8,6 +8,21 @@ a {
   text-decoration: none;
 }
 
+.header-top{
+  width: 100%;
+  background-color: #2c3e50;
+}
+
+.container{
+  margin: auto;
+  width: 80%;
+}
+
+.start h3{
+  color: #fff;
+  font-size: 2rem;
+}
+
 .list-inline {
   list-style: none;
 }
@@ -18,6 +33,8 @@ a {
 
 .main-menu {
   text-align: right;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .main-menu li {
@@ -25,111 +42,103 @@ a {
 }
 
 .main-menu li a {
-  color: #000;
-}
-
-.header-top{
-  width: 100%;
-  background-color: #2c3e50;
-}
-
-.container::after{
-  display: block;
-  clear: both;
-  content: "";
-}
-
-.container{
-  margin: auto;
-  width: 80%;
-}
-
-.red{
-  float: left;
-  width: 50%;
-  padding: 30px 0;
-}
-
-.blue{
-  float: left;
-  width: 50%;
-  padding: 30px 0;
+  color: #fff;
 }
 
 .tiffany{
-  position: relative;
   width: 100%;
   background-color: #1abc9c;
-  height: 350px;
 }
 
 .img-center{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
   color:#fff;
 }
 
-h1{
-  font-size: 3.8rem;
+.img-center h1{
+  font-size: 5rem;
+  font-weight: bold;
 }
 
-p{
-  font-size: 1.2rem;
+.img-center p{
+  font-size: 1.5rem;
   margin: 20px 0;
 }
 
 /* main */
-h2{
+
+.text-h2 h2{
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 4rem;
+  font-weight: bold;
   padding: 40px 0;
 }
 
-.green{
-  background-color: green;
-  border-radius: 5px;
-  width: 33%;
-  float: left;
-}
-
-.yellow{
-  background-color: yellow;
-  border-radius: 5px;
-  width: 33%;
-  float: left;
-}
-
-.purple{
-  background-color: purple;
-  border-radius: 5px;
-  width: 33%;
-  float: left;
-}
-
-.lightgreen{
+.sixty{
   width: 60%;
 }
 
 .about{
-  float: left;
-  width: 100%;
-}
-
-.about h2{
   color: #fff;
 }
 
-.sx, .dx{
-  width: 50%;
-  float: left;
+.sx{
   color: #fff;
+  font-size: 1.8rem;
 }
 
 .but{
-  float: left;
-  width: 100%;
   text-align: center;
+  margin: 20px 0;
+}
+
+.download{
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.no-dec li{
+  list-style: none;
+  margin: 20px 0;
+  font-size: 1.25rem;
+  color: #2c3e50;
+}
+
+.border{
+  border-bottom: 1px solid #fafafa;
+}
+
+.border-top{
+  border-top: 1px solid #fafafa;
+  margin: 40px 0;
+}
+
+hr{
+  color: #fafafa;
+}
+
+.massage{
+  margin-top: 100px;
+}
+
+.send{
+  margin: 20px 0;
+  padding: 5px 10px;
+}
+
+.footer-top{
+  width: 100%;
+  background-color: #2c3e50;
+}
+
+.footer-size{
+  float: left;
+  width: 33%;
+  margin-top:40px;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-size h5{
+  font-size: 1.25rem;
 }
