@@ -84,12 +84,35 @@ a {
   margin: 20px 0;
 }
 
-.{
+.border-star{
+  margin: auto;
+  width: 7%;
+  margin: 0 10px;
+  background-color: #899397;
   display: inline-block;
-  vertical-align: 5px;
-  border-bottom: 2px solid #fff;
-  text-align: center;
-  padding: 50px;
+  vertical-align: 28px;
+  border-bottom: 5px solid #fff;
+  border-radius: 5px;
+}
+
+.border-star-blu{
+  margin:auto;
+  width: 7%;
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: 28px;
+  border-bottom: 5px solid #2c3e50;
+  border-radius: 5px;
+}
+
+.star{
+  font-size: 5rem;
+  color:#fff;
+}
+
+.star-blu{
+  font-size: 5rem;
+  color:#2c3e50;
 }
 /* main */
 
