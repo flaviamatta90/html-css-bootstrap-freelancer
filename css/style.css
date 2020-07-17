@@ -264,6 +264,7 @@ body{
 .social a{
   color:#fff;
 }
+
 .footer-size{
   margin-top: 40px;
   color: #fff;
@@ -296,8 +297,7 @@ body{
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 768) {
-  .container{
-    margin-right: 50px;
-  }
+@media screen and (max-width: 768px) {
+  .start h3 a{
+  font-size: 1.5rem;
 }
