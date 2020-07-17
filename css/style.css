@@ -3,10 +3,6 @@ body{
   line-height: 1.15;
 }
 
-a {
-  text-decoration: none;
-}
-
 .header-top{
   position: fixed;
   top: 0;
@@ -25,30 +21,39 @@ a {
 .hamburger {
   float: right;
   font-size: 1.4rem;
-  margin: 15px 0;
+  margin: 25px 0;
+  padding: 7px;
   background-color: #1abc9c;
   color: #fff;
+  border-radius: 5px;
 }
 
-.start h3{
+.start h3 a{
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  line-height: 50px;
+  text-decoration: none;
 }
 
 .list-inline {
   list-style: none;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .list-inline  li {
   display: inline-block;
 }
 
+.hover-a:hover {
+  color:#1abc9c;
+}
+
 .main-menu {
   margin-top: 20px;
   margin-bottom: 10px;
+  line-height: 50px;
   text-align: right;
 }
 
@@ -56,15 +61,16 @@ a {
   padding-right: 30px;
 }
 
-.main-menu li a {
+.main-menu a {
   color: #fff;
+  text-decoration: none;
 }
 
 .tiffany{
   width: 100%;
   background-color: #1abc9c;
-  padding: 25px 0;
-  margin-top: 31px;
+  padding: 50px 0;
+  margin-top: 50px;
 }
 
 .img-center{
@@ -182,22 +188,6 @@ a {
   font-weight: bold;
 }
 
-
-.eff-color img:hover{
-  filter: opacity(0.5);
-}
-/* .layover{
-  position: absolute;
-  top:0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-} */
-/* .img-hover:hover{
-  background-color: rgba(26,188,156,0.0)
-} */
-
 .invio{
   text-align: center;
   padding-top: 30px;
@@ -247,7 +237,12 @@ a {
 .send{
   font-size: 2rem;
   margin: 30px 0;
-  padding: 5px 10px;
+  padding: 15px 25px;
+}
+
+.botto-hover:hover{
+  color:#fff;
+  background-color: rgba(26, 188, 156, 0.8);
 }
 
 .footer-top{
@@ -258,7 +253,6 @@ a {
 .social li {
   font-size: 1.8rem;
   margin: 10px 5px;
-  color: #fff;
   text-decoration: none;
   height: 40px;
   width: 40px;
@@ -267,6 +261,9 @@ a {
   border-radius: 50%;
 }
 
+.social a{
+  color:#fff;
+}
 .footer-size{
   margin-top: 40px;
   color: #fff;
@@ -290,8 +287,8 @@ a {
 
 .boot-start{
   color:#1abc9c;
-
 }
+
 .last p{
   text-align: center;
   margin-top: 30px;
